@@ -25,6 +25,9 @@ case 5:
 printf("FRI");
 break;
 
+default:
+printf("SAT & SUN is Holiday");
+break;
 }
 
 }
