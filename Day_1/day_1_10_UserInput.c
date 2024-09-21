@@ -10,7 +10,10 @@ char name[30];
 
 printf("Enter Your Name and Age here___\n");
 
-// get save the number from the user 
+// get save the number from the user
+/* scanf() is used to take i/p from the user and '&' is the reference operator
+to store the value from user.
+ */
 scanf("%s", &name);
 scanf("%d", &myAge);
 
